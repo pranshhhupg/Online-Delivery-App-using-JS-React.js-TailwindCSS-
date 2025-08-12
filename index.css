@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Poppins";
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; 
+  }
+.hide-scrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.Toastify__toast-container--top-right {
+    top: 40px;  /* distance from top */
+    right: 15px; /* distance from right */
+}
+
+.Toastify__progress-bar {
+  background: rgb(231, 46, 46) !important;
+}
+
+.Toastify__close-button {
+  color: white !important;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

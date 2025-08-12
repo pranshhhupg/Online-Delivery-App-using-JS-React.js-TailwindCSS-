@@ -1,11 +1,11 @@
 const About = () => {
     return (
         <div className = "About">
-            <div className="p-4">
+            <div className="px-4 py-2">
                 
             </div>
             <div className="About-heading">
-                <h1 className="text-4xl flex items-center justify-center  mx-auto font-bold mt-5">About</h1>
+                <h1 className="text-4xl flex items-center justify-center mx-auto font-bold ">About</h1>
             </div>
 
             <div className ="About-subHeading bg-orange-200 mx-70 rounded-2xl px-10 py-8 mt-5 mb-10">

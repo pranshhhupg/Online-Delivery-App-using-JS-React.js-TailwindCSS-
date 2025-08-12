@@ -56,7 +56,7 @@ const Cart = () => {
                 <img src="https://i.postimg.cc/fRwJx2NR/download-1.png"
                 className="w-10 mr-3"/>
                 Cart</h1>
-                <button className="clearCartBtn bg-orange-400 text-black rounded-lg p-2 hover:cursor-pointer transform hover:scale-110 transition duration-300"
+                <button className="clearCartBtn font-bold bg-orange-400 text-black rounded-lg p-2 hover:cursor-pointer transform hover:scale-110 transition duration-300"
                 onClick = {handleClearCart}>Clear Cart</button>
                 </div>
                 <div className="cart-items-container w-200 mx-auto rounded-lg bg-gray-100 pb-5 ">

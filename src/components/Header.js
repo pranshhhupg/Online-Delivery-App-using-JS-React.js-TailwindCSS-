@@ -83,7 +83,7 @@ const Header = () => {
                         <button className="text-xl login transform hover:scale-95 transition duration-150 hover:cursor-pointer p-4"
                         >
                         {
-                            userName === "" ? "SignUp" : <h1 className="font-bold">Welcome, {userName}</h1>
+                            userName === "" ? "Sign Up" : <h1 className="font-bold">Welcome, {userName}</h1>
                         }
                         </button>
                     </Link>

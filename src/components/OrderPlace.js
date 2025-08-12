@@ -59,8 +59,8 @@ const OrderPlace = () => {
                     </div>
                 </div>
 
-                <div className="mr-10">
-                    <h1 className="mx-4 font-bold mt-4 text-2xl">Items included</h1>
+                <div className="mr-10 mt-5">
+                    <h1 className="mx-1 font-bold mt-4 text-3xl">Items included</h1>
                     <div className="items mt-2 mb-5 mx-10">
                         {
                             copyItem.map((item)=>

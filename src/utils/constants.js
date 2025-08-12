@@ -20,4 +20,4 @@ export const CART_IMG=
     "https://i.postimg.cc/fRwJx2NR/download-1.png"
 
 export const TICK_IMG=
-    "https://i.postimg.cc/x8XT17rH/Screenshot-2025-08-12-175328.png";
+    "https://i.postimg.cc/25DnqpKL/hd-round-green-tick-mark-symbol-icon-png-701751695051688lzyoxnzg09-1.png";

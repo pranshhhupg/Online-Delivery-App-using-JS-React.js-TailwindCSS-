@@ -6,7 +6,7 @@ const OrderPlaceItems = ({menuDataItems}) => {
     const quantity=menuDataItems.quantity;
 
     return (
-        <div className="container flex mx-5 border-b-3  border-black p-2 pl-4 ">
+        <div className="container flex mx-5 border-b-3  border-orange-400 p-2 pl-4 ">
             <div className="img ">
                 <img className="rounded-md w-30"src={ITEMS_IMG_API+imageId}/>
             </div>

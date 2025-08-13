@@ -31,7 +31,7 @@ const RestaurantMenu = () => {
 
     return (menuList===null || resInfo===null || couponData===null) ? (<ShimmerMenu/>) : (
         <div className="Restaurant-container">
-            <div className="resMenuHeader w-150 h-100 flex mb-10 justify-between bg-gray-100 mx-117 rounded-xl  my-auto">
+            <div className="resMenuHeader w-150 h-100 flex mb-10 justify-between bg-gray-100 justify-center mx-auto rounded-xl  my-auto">
                 <img src={CDN_URL+resInfo.cloudinaryImageId} alt="restaurant"
                 className="w-full h-full object-cover rounded-xl"/>
                 <div className="absolute ResDetails h-100 ml-80 w-70 rounded-lg bg-black opacity-80 px-6 justify-center items-center py-10 ">
@@ -59,7 +59,7 @@ const RestaurantMenu = () => {
 
             </div>
 
-            <div className="CouponAndOffers border-t-3 border-gray-300 mx-90 mb-5 border-b-3">
+            <div className="CouponAndOffers border-t-3 border-gray-300 justify-center mx-90 mb-5 border-b-3">
                 <div className="couponHeader  pt-5 ml-3 mb-2">
                     <h1 className="text-3xl font-bold">Best Deals For You!</h1>
                 </div>

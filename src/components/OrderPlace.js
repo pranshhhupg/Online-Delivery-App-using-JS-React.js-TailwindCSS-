@@ -30,8 +30,8 @@ const OrderPlace = () => {
     }, [dispatch]); 
 
     return (
-        <div className="container rounded-xl bg-orange-300 items-center justify-center w-200 mx-auto pb-3 mb-10 shadow-lg">
-            <div className="orderplaced-container flex mt-7">
+        <div className="container rounded-2xl items-center justify-center w-200 mx-auto pb-3 mb-10 shadow-lg">
+            <div className="orderplaced-container p-2 rounded-t-2xl bg-orange-300 flex mt-7">
                 <div className="img w-3/12">
                 <img src={TICK_IMG}
                 className="w-50 m-5"/>
@@ -44,7 +44,7 @@ const OrderPlace = () => {
             
             </div>
 
-            <div className="order-details bg-gray-100 m-4 mx-7 p-4 rounded-lg mt-[-10px] shadow-md">
+            <div className="order-details bg-gray-100 m-4 mx-7 p-4 rounded-2xl mt-[-45px] shadow-md">
                 <div className="heading">
                     <h1 className="font-bold text-3xl mb-3">Delivering to</h1>
                 </div>
@@ -70,10 +70,15 @@ const OrderPlace = () => {
                     </div>
                     
                 </div>
-
-                <div className="please pay">
-                    <h1 className="font-bold text-2xl mt-5">Please pay ₹{billAmount ? totalBill.toFixed(2) : ""} when delivered! </h1>
+                <div className="container flex">
+                    <div className="img w-10 mr-4 mt-4 ml-1">
+                        <img src="https://i.postimg.cc/bwJrBhwk/77-VFRH-white-wallet-photos.png"/>
+                    </div>
+                    <div className="please pay pb-3">
+                        <h1 className="font-bold text-2xl mt-5">Please pay ₹{billAmount ? totalBill.toFixed(2) : ""} when delivered! </h1>
+                    </div>
                 </div>
+                
             </div>
         </div>
         

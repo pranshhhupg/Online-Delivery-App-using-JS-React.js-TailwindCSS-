@@ -33,7 +33,7 @@ const Login = () => {
 
 
     return (
-        <div className="Login-container flex w-7/12 items-center mx-auto my-10 mb-20 bg-orange-200 rounded-lg  shadow-xl">
+        <div className="Login-container flex w-7/12 items-center mx-auto mt-4 mb-20 bg-orange-200 rounded-2xl  shadow-xl">
             <div className="img w-6/12 items-center px-5 mb-16 ">
                 <img src={LOGO_URL} className=" w-70 ml-7"/>
                 <div className="texts bg-[#FCE6D0] p-4 rounded-2xl pt-6 mt-[-50px]">
@@ -42,12 +42,12 @@ const Login = () => {
                 </div>
                 
             </div>
-            <div className="login-info w-7/12 pl-20  rounded-lg bg-orange-300 mr-5 my-6">
-                <h1 className="my-5 text-4xl font-bold bg-[#FCE6D0] p-4 rounded-2xl pt-6 mr-24 text-center pb-6 ">Sign Up</h1>
-                <div className="credentials bg-[#FCE6D0] p-4 mr-20 mt-10 rounded-2xl">
+            <div className="login-info w-7/12 pl-20  rounded-r-2xl bg-orange-300 shadow-2xl">
+                <h1 className="my-5 text-4xl font-bold  pt-6 mr-24 text-center ">Sign Up</h1>
+                <div className="credentials bg-[#FCE6D0] p-4 mr-20 w-80 mt-10 rounded-2xl">
                     <div className="name  mb-6 ">
                         <h1 className="font-bold text-xl">Name</h1>
-                        <input placeholder="Enter your name" className=" bg-white w-70 h-12 rounded-xl pl-2 "
+                        <input placeholder="Enter your name" className=" bg-white w-full h-12 rounded-xl pl-2 "
                         type="text"
                         value={name}
                         onChange={(e)=>{
@@ -55,9 +55,9 @@ const Login = () => {
                         }}>
                         </input>
                     </div>
-                    <div className="userId mb-6 ">
+                    <div className="userId mb-6  ">
                         <h1 className="font-bold text-xl">Email</h1>
-                        <input placeholder="Enter your email" className= "bg-white w-70 h-12 rounded-xl pl-2"
+                        <input placeholder="Enter your email" className= "bg-white w-full h-12 rounded-xl pl-2"
                         type="email"
                         value={id}
                         onChange={(e)=>{
@@ -66,7 +66,7 @@ const Login = () => {
                     </div>
                     <div className="pass ">
                         <h1 className="font-bold text-xl">Password</h1>
-                        <input placeholder="Enter your password" className=" bg-white w-70 h-12 rounded-xl pl-2"
+                        <input placeholder="Enter your password" className=" bg-white w-full h-12 rounded-xl pl-2"
                         type="password"
                         value={pass}
                         onChange={(e)=>{

@@ -1,6 +1,6 @@
 export const ShimmerBody = () => {
     return(
-        <div className="container">
+        <div className="container justify-center mx-auto">
             <div className="px-15">
                 <div className="p-10 bg-gray-100 w-full h-50 rounded-lg my-10 "></div>
             </div>
